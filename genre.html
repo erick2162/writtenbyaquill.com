@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Wrtitten by a Quill</title>
+	<!-- add icon link -->
+		        <link rel = "icon" href = "images/titleLogo2.png">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<section class="sub-header">
+			<nav>
+				<a href="index.html"><img src="images/websiteLogo2.png"></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="">ABOUT</a></li>
+						<li><a href="Varieties.html">VARIETIES</a></li>
+						<li><a href="genre.html">GENRE</a></li>
+						<li><a href="contact.html">CONTACT US</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+			</nav>
+			<h1>What kind do you like?</h1>
+	</section>
+
+	<!-----------genre------------->
+
+<section class="genre" id="genre">
+		<h1>Genres</h1>
+		<p>Feel the diversity of each book.</p>
+
+		<div class="row">
+			<div class="genre-col">
+				<a href="fantasy.html">
+				<img src="images/The Wizard, the Witch & Two Girls from Jersey.jpg">
+				<div class="layer">
+					<h3>Fantasy</h3>
+				</div>
+				</a>
+			</div>
+			<div class="genre-col">
+				<a href="romance.html">
+				<img src="images/Everything Everything.jpg">
+				<div class="layer">
+					<h3>Romance</h3>
+				</div>
+				</a>
+			</div>
+			<div class="genre-col">
+				<a href="thriller.html">
+				<img src="images/The Hunted Hare.jpg">
+				<div class="layer">
+					<h3>Thriller</h3>
+				</div>
+				</a>
+			</div>
+		</div>
+	</section>
+<!---------------- footer----------------->
+
+<section class="footer">
+	<div class="icons">
+		<a href="https://www.facebook.com/bonjo.mendoza/"><i class="fa fa-facebook"></i></a>
+		<a href="https://twitter.com/MMMMischievous"><i class="fa fa-twitter"></i></a>
+		<a href="https://www.instagram.com/bonjomendoza/"><i class="fa fa-instagram"></i></a>
+	</div>
+	<p><i class="fa fa-copyright"></i> Copyright www.writtenbyaquill.com - All Rights Reserved. Designed by Bonjo Mendoza</p>
+</section>
+
+
+
+
+<!---------------- Java for Toggle----------------->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>
+
+</body>
+</html>

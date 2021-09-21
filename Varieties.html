@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Wrtitten by a Quill</title>
+	<!-- add icon link -->
+		        <link rel = "icon" href = "images/titleLogo2.png">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<section class="sub-header">
+			<nav>
+				<a href="index.html"><img src="images/websiteLogo2.png"></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="Varieties.html">VARIETIES</a></li>
+						<li><a href="genre.html">GENRE</a></li>
+						<li><a href="contact.html">CONTACT US</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+			</nav>
+
+			<h1>Varieties...</h1>
+	</section>
+
+	<!----------Varieties------->
+
+
+	<section class="Varieties">
+		<h1>Promos we offer</h1>
+		<p>
+			Different books, different kinds. We know the gists. Click on which you <em>want</em> more. - <em>Sana all want.</em> 
+		</p>
+
+		<div class="row">
+			
+			<div class="Varieties-col">
+				<a href="Novel.html">
+				<h3>Novels</h3>
+				<p>A 'stand alone' book does not need the audience to read an entire series to understand or enjoy the book. If previous characters from the series are referenced, their actions or importance to the present action is explained in a paragraph.</p>
+				</a>
+			</div>
+			
+			
+			<div class="Varieties-col">
+				<a href="trilogy.html">
+				<h3>Trilogy</h3>
+				<p>a series of three literary works or sometimes three musical compositions that are closely related and develop a single theme.</p>
+				</a>
+			</div>
+			
+			
+			<div class="Varieties-col">
+				<a href="series.html">
+				<h3>Series</h3>
+				<p>A book series is a sequence of books having certain characteristics in common that are formally identified together as a group.</p>
+				</a>
+			</div>
+			
+			
+		</div>
+	</section>
+
+
+<!---------------- footer----------------->
+<section class="footer">
+	<div class="icons">
+		<a href="https://www.facebook.com/bonjo.mendoza/"><i class="fa fa-facebook"></i></a>
+		<a href="https://twitter.com/MMMMischievous"><i class="fa fa-twitter"></i></a>
+		<a href="https://www.instagram.com/bonjomendoza/"><i class="fa fa-instagram"></i></a>
+	</div>
+	<p><i class="fa fa-copyright"></i> Copyright www.writtenbyaquill.com - All Rights Reserved. Designed by Bonjo Mendoza</p>
+</section>
+
+
+
+
+
+<!---------------- Java for Toggle----------------->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>
+
+</body>
+</html>
